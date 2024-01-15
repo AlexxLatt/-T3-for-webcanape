@@ -1,0 +1,70 @@
+.products{
+	margin-top: 80px;
+	&__title{
+		color: #222;
+		font-family: Montserrat;
+		font-size: 48px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+	&__descr{
+		margin-top: 40px;
+		color: #222;
+		font-family: Montserrat;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 30px; 
+	}
+	&__mainWrapper{
+		display: grid;
+		
+	}
+	&__wrapper{
+	
+		display: grid;
+		grid-template-columns: repeat(auto-fit,220px);
+		grid-template-rows: 190px;
+		grid-auto-rows: 190px;
+	
+		justify-content: space-between;
+		margin: 0 auto;
+		margin-top: 70px;
+		row-gap: 13px;
+		&__item{
+			grid-template-columns: 1fr;
+			display: grid;
+			grid-template-rows:90px 100px;
+
+			&__title{
+				align-self: center;
+				justify-self: center;
+				color: #CDBD84;
+				font-family: Montserrat;
+				font-size: 80px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+				span{
+					color: #CDBD84;
+					font-family: Montserrat;
+					font-size: 24px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: normal;
+				}
+			}
+			&__descr{
+				justify-self: center;
+				grid-row: 2/3;
+				color: #222;
+				font-family: Montserrat;
+				font-size: 18px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 30px; 
+			}
+		}
+	}
+}

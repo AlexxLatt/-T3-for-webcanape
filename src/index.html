@@ -40,12 +40,420 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="icons/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
   
-    <h1>Hello World!!!!</h1>
+   <section class="header">
+    <div class="container">
+        <div class="header__wrapper">
+            <button class="header__sidepanel"><img src="icons/sidepanel.png" alt="упс..."></button>
+            <div class="header__logo"><img src="icons/logo.png" alt="упс..."></div>
+            <nav class="header__nav">
+                <ul class="header__nav__wrapper">
+                    <li class="header__nav__wrapper__item"><a class="header__nav__wrapper__item__text" href="">О компании</a> </li>
+                    <li class="header__nav__wrapper__item"> <a class="header__nav__wrapper__item__text" href="">Вакансии</a></li>
+                    <li class="header__nav__wrapper__item"><a  class="header__nav__wrapper__item__text" href="">Новости</a></li>
+                    <li class="header__nav__wrapper__item"><a  class="header__nav__wrapper__item__text" href="">Контакты</a></li>
+                </ul>
+                
+            </nav>
+            <div class="header__schedule">пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной</div>
+            <div class="header__email"><a href="">sale@semm.ru</a></div>
+            <div class="header__menuWrapper">
+
+                <div class="header__menuWrapper__togleLang">
+                    <button class="header__menuWrapper__togleLang__btn">Ru</button>
+                    <button class="header__menuWrapper__togleLang__btn">En</button>
+                </div>
+
+
+                <div class="header__menuWrapper__phone">8 (86138) 6-34-03, 6-34-06</div>
+
+                <select class="header__menuWrapper__optionLang"  name="lang" id="lang-select">
+                    <option value="">Выбор языка</option>
+                    <option value="Tur">Турецкий</option>
+                    <option value="Ucr">Украинский</option>
+                    <option value="Kit">Китайский</option>
+                </select>
+            </div>
+        </div>
+        
+
+
+    </div>
+   </section>
+
+   <section class="hamburgerMenu">
+    <div class="hamburgerMenu__wrapper">
+        <button class="hamburgerMenu__wrapper__close"><img src="icons/exit.png" alt="упс..."></button>
+        <ul class="hamburgerMenu__wrapper__list">
+            <div class="hamburgerMenu__wrapper__list__item"><a href="#">О компании</a> </div>
+            <div class="hamburgerMenu__wrapper__list__item"><a href="#">Вакансии</a></div>
+            <div class="hamburgerMenu__wrapper__list__item"><a href="#">Новости</a></div>
+            <div class="hamburgerMenu__wrapper__list__item"><a href="#">Контакты</a></div>
+        </ul>
+        <div class="hamburgerMenu__wrapper__phone">8 (86138) 6-34-03, 6-34-06</div>
+        <div class="hamburgerMenu__wrapper__email">sale@semm.ru</div>
+        <div class="hamburgerMenu__wrapper__schedule">пн-пт 8:00-17:00,<br> перерыв 12:00-13:00,<br> сб-вс: выходной</div>
+    </div>
+   </section>
+
+
+   <section class="mainWindow">
+    <div class="container">
+        <div class="mainWindow__header">
+
+            <nav class="mainWindow__header__nav">
+                <ul class="mainWindow__header__nav__wrapper">
+                    <li class="mainWindow__header__nav__wrapper__item"><a class="mainWindow__header__nav__wrapper__item__text" href="#">Элеваторное оборудование</a></li>
+                    <li class="mainWindow__header__nav__wrapper__item"><a class="mainWindow__header__nav__wrapper__item__text" href="#">Котлы</a></li>
+                    <li class="mainWindow__header__nav__wrapper__item"><a class="mainWindow__header__nav__wrapper__item__text" href="#">Металлоконструкции</a></li>
+                    <li class="mainWindow__header__nav__wrapper__item"><a class="mainWindow__header__nav__wrapper__item__text" href="#">Услуги</a></li>
+                </ul>
+            </nav>
+            <div class="mainWindow__header__serch"><button class="mainWindow__header__serch__btn"><img src="icons/search.png" alt="упс..."></button></div>
+
+        </div>
+    <div class="mainWindow__sliderWrpapper">
+        <div class="mainWindow__my-slider">
+
+            <div class="mainWindow__my-slider__item">
+                <h1 class="mainWindow__my-slider__item__title">Элеватормельмаш</h1>
+                <h2 class="mainWindow__my-slider__item__subtitle">Крупнейший поставщик продукции для агропромышленного<br> комплекса России и ближнего зарубежья</h2>
+            </div>
+            <div class="mainWindow__my-slider__item">
+                <h1 class="mainWindow__my-slider__item__title">Lorem ipsum dolor sit </h1>
+                <h2 class="mainWindow__my-slider__item__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Illum quis fugit aliquam nihil dolore </h2>
+            </div>
+            <div class="mainWindow__my-slider__item">
+                <h1 class="mainWindow__my-slider__item__title">Lorem ipsum dolor sit </h1>
+                <h2 class="mainWindow__my-slider__item__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Illum quis fugit aliquam nihil dolore </h2>
+            </div>
+            <div class="mainWindow__my-slider__item">
+                <h1 class="mainWindow__my-slider__item__title">Lorem ipsum dolor sit </h1>
+                <h2 class="mainWindow__my-slider__item__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Illum quis fugit aliquam nihil dolore </h2>
+            </div>
+
+        </div>
+
+        <div id="mainWindow__custom_controlsContainer">
+            <button id="mainWindow__prev"></button>
+            <button id="mainWindow__next"></button>
+        </div>
+
+        <div class="mainWindow__divider"></div>
+
+  
+        <div class="mainWindow__score">
+       
+    </div>
+</div>
+
+
+
+    
+
+    </div>
+   </section>
+
+   <section class="products">
+    <div class="container">
+        <h2 class="products__title">Продукция для аграрной промышленности</h2>
+        <div class="products__descr">АО "Элеватормельмаш" г. Кропоткин на протяжении 75 лет является крупнейшим поставщиком продукции для агропромышленного<br> комплекса России и ближнего зарубежья.<br>
+                                    Предприятие выпускает большой спектр оборудования в которые входит: элеваторное оборудование, промышленные котлы,<br> бетоносмесители, металлоконструкции и металлические формы для свай.<br><br><br>
+                                    Собственное конструкторское бюро позволяет разрабатывать новую, а так же регулярно улучшать и модернизировать существующую продукцию.</div>
+
+       
+            <div class="products__wrapper">
+                <div class="products__wrapper__item">
+                    <div class="products__wrapper__item__title">75 <span>лет</span></div>
+                    <div class="products__wrapper__item__descr">опыта на рынке<br> агропромышленного<br> комплекса</div>
+                </div>
+                <div class="products__wrapper__item">
+                    <div class="products__wrapper__item__title"><span>></span>200</div>
+                    <div class="products__wrapper__item__descr">видов мельнично -<br> элеваторного<br> оборудования</div>
+                </div>
+                <div class="products__wrapper__item">
+                    <div class="products__wrapper__item__title">25</div>
+                    <div class="products__wrapper__item__descr">видов котлов<br> промышленного<br> назначения</div>
+                </div>
+                <div class="products__wrapper__item">
+                    <div class="products__wrapper__item__title">20</div>
+                    <div class="products__wrapper__item__descr">почвообрабатывающей<br> техники</div>
+                </div>
+                <div class="products__wrapper__item">
+                    <div class="products__wrapper__item__title">35</div>
+                    <div class="products__wrapper__item__descr">регионов поставки<br> продукции</div>
+                </div>
+          
+        </div>
+    </div>
+   </section>
+
+   <section class="equipment">
+    <div class="container">
+        <h1 class="equipment__title">Элеваторное оборудование</h1>
+
+        <div class="equipment__wrapper">
+            <div class="equipment__wrapper__item">
+                <div class="equipment__wrapper__item__title">Автомобиле-<br>разгрузчики</div>
+                <button class="equipment__wrapper__item__btn"></button>
+            </div>
+            <div class="equipment__wrapper__item">
+                <div class="equipment__wrapper__item__title">Конвейеры</div>
+                <button class="equipment__wrapper__item__btn"></button>
+            </div>
+            <div class="equipment__wrapper__item">
+                <div class="equipment__wrapper__item__title">Пробоотборники</div>
+                <button class="equipment__wrapper__item__btn"></button>
+            </div>
+            <div class="equipment__wrapper__item">
+                <div class="equipment__wrapper__item__title">Циклоны</div>
+                <button class="equipment__wrapper__item__btn"></button>
+            </div>
+            <div class="equipment__wrapper__item">
+                <div class="equipment__wrapper__item__title">Нории</div>
+                <button class="equipment__wrapper__item__btn"></button>
+            </div>
+            <div class="equipment__wrapper__item">
+                <div class="equipment__wrapper__item__title">Переработка маслосемян</div>
+                <button class="equipment__wrapper__item__btn"></button>
+            </div>
+            <div class="equipment__wrapper__item">
+                <div class="equipment__wrapper__item__title">Клапаны</div>
+                <button class="equipment__wrapper__item__btn"></button>
+            </div>
+            <div class="equipment__wrapper__item">
+                <div class="equipment__wrapper__item__title">Задвижки<br>реечные</div>
+                <button class="equipment__wrapper__item__btn"></button>
+            </div>
+            <div class="equipment__wrapper__item">
+                <div class="equipment__wrapper__item__title">Тележка<br>сбрасывающая</div>
+                <button class="equipment__wrapper__item__btn"></button>
+            </div>
+            <div class="equipment__wrapper__item">
+                <div class="equipment__wrapper__item__title">Шлюзовый<br>затвор</div>
+                <button class="equipment__wrapper__item__btn"></button>
+            </div>
+            <div class="equipment__wrapper__item">
+                <div class="equipment__wrapper__item__title">Затвор<br>огнепреграждающий</div>
+                <button class="equipment__wrapper__item__btn"></button>
+            </div>
+            <div class="equipment__wrapper__item">
+                <div class="equipment__wrapper__item__title">Устройство<br>загрузки вагонов</div>
+                <button class="equipment__wrapper__item__btn"></button>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section class="otherEquipment">
+    <div class="container">
+                <div class="otherEquipment__title">Другое оборудование</div>
+    <div class="otherEquipment__wrapper">
+        <div class="otherEquipment__wrapper__item">
+            <div class="otherEquipment__wrapper__item__title">Котлы</div>
+            <button class="otherEquipment__wrapper__item__btn"><img src="icons/arrow.png" alt="упс..."></button>
+        </div>
+
+        <div class="otherEquipment__wrapper__item">
+            <div class="otherEquipment__wrapper__item__title">Дополнительное оборудование</div>
+            <button class="otherEquipment__wrapper__item__btn"><img src="icons/arrow.png" alt="упс..."></button>
+        </div>
+    </div>
+
+    <div class="otherEquipment__descr">Продукция АО "Элеватормельмаш" используется на предприятиях Юга ,Поволжья и Центральной России, а так же Украины, Казахстана, Молдовы и Белоруссии. Большое количество успешных партнерских отношений подтверждает качество продукции и предоставляемых услуг по установке оборудования и его обслуживанию.<br><br>
+
+В 2013 году была проведена крупная модернизация оборудования. Введены в эксплуатацию: станок гидроабразивной резки, четырехволковая машина с ЧПУ и листогибочный станок с ЧПУ.Это сразу позволило на порядок поднять качество выпускаемой продукции , снизить трудоемкость процессов, а так же увеличить ассортимент выпускаемой продукции.
+
+
+
+    </div>
+
+   </section>
+
+   <section class="companyServices">
+    <div class="container">
+        <div class="companyServices__title">Услуги компании</div>
+        <div class="companyServices__wrapper">
+            <div class="companyServices__wrapper__item">
+                 <div class="companyServices__wrapper__item__img"><img src="img/Company services/01.jpg" alt="упс..."></div>
+                <div class="companyServices__wrapper__item__number">01</div>
+                 <div class="companyServices__wrapper__item__title">Плазменная резка</div>
+                 <div class="companyServices__wrapper__item__descr">Компания АО «Элеватормельмаш» осуществляет литейное производство черных и цветных металлов на профессиональной основе и производит литые детали из чугуна и цветных сплавов по эскизу заказчика.</div>
+            </div>
+             <div class="companyServices__wrapper__item">
+                <div class="companyServices__wrapper__item__img"><img src="img/Company services/02.jpg" alt="упс..."></div>
+                 <div class="companyServices__wrapper__item__number">02</div>
+                 <div class="companyServices__wrapper__item__title">Гидроабразивная резка</div>
+                 <div class="companyServices__wrapper__item__descr">Уникальная технология, которая может производить резку различных материалов, в том числе стекла, пластика, металла и многих других.</div>
+             </div>
+
+             <div class="companyServices__wrapper__item">
+                 <div class="companyServices__wrapper__item__img"><img src="img/Company services/03.jpg" alt="упс..."></div>
+                <div class="companyServices__wrapper__item__number">03</div>
+                 <div class="companyServices__wrapper__item__title">Изготовление изделий на листогибочном станке с ЧПУ</div>
+                 <div class="companyServices__wrapper__item__descr">Позволяет изготавливать сложные профили, элементов кровли, оконные отливы и т.д. Такой станок незаменим при любых гибочных работах.</div>
+            </div>
+             <div class="companyServices__wrapper__item">
+                <div class="companyServices__wrapper__item__img"><img src="img/Company services/04.jpg" alt="упс..."></div>
+                 <div class="companyServices__wrapper__item__number">04</div>
+                  <div class="companyServices__wrapper__item__title">Производство металлоконструкций</div>
+                 <div class="companyServices__wrapper__item__descr">Металлоконструкции изготавливаются по индивидуальным параметрам с учетом всех пожеланий заказчика</div>
+             </div>
+        </div>
+
+        
+
+
+    </div>
+   </section>
+
+    <section class="news">
+    <div class="container">
+        <div class="news__wrapper">
+            <h3 class="news__title">Новости компании</h3>
+             <div id="news__custom_controlsContainer">
+                <button id="news__prev"></button>
+                <button id="news__next"></button>
+            </div>
+        </div>    
+            <div class="news__my-slider">
+                <div class="news__my-slider__item">
+                    <div class="news__my-slider__item__img"><img src="img/Company News/news(1).jpg" alt="упс..."></div>
+                    <div class="news__my-slider__item__title">Запасные части для<br> пробоотборника</div>
+                    <div class="news__my-slider__item__date">14.10.2020</div>
+                    <div class="news__my-slider__item__descr">Заводом Элеватормельмаш (ЭММ) изготовлены и подготовлены к отгрузке запасные отборники для пробоотборника типа У1-УПП для Заказчика из Саратовской области. </div>
+                </div>
+                <div class="news__my-slider__item">
+                    <div class="news__my-slider__item__img"><img src="img/Company News/news(2).jpg" alt="упс..."></div>
+                    <div class="news__my-slider__item__title">Фузоловушка для расширения<br> производства</div>
+                    <div class="news__my-slider__item__date">14.10.2020</div>
+                    <div class="news__my-slider__item__descr">Для увеличения объемов выпускаемой продукции и в целях модернизации производства для одного из маслобойных предприятий республики Башкортостан завод Элеватормельмаш изготовил и отгрузил очередную машину типа МФС.</div>
+                </div>
+                <div class="news__my-slider__item">
+                    <div class="news__my-slider__item__img"><img src="img/Company News/news(3).jpg" alt="упс..."></div>
+                    <div class="news__my-slider__item__title">Произведена мультимодальная<br> отгрузка котлов</div>
+                    <div class="news__my-slider__item__date">14.10.2020</div>
+                    <div class="news__my-slider__item__descr">Мы произвели и отгрузили очередную партию промышленных котлов. Данная отгрузка была необычной, а мультимодальная (авто-, ж.д. контейнер, морской паром).</div>
+                </div>
+                <div class="news__my-slider__item">
+                    <div class="news__my-slider__item__img"><img src="img/noImage.jpg" alt="упс..."></div>
+                    <div class="news__my-slider__item__title">Lorem ipsum dolor,<br> sit amet consectetur </div>
+                    <div class="news__my-slider__item__date">Lorem ipsum </div>
+                    <div class="news__my-slider__item__descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At error, voluptatibus magnam reprehenderit, mollitia dolores, adipisci illo labore voluptatem suscipit inventore qui. Consequatur rerum laborum exercitationem aut itaque facere rem!</div>
+                </div>
+                <div class="news__my-slider__item">
+                    <div class="news__my-slider__item__img"><img src="img/noImage.jpg" alt="упс..."></div>
+                    <div class="news__my-slider__item__title">Lorem ipsum dolor,<br> sit amet consectetur </div>
+                    <div class="news__my-slider__item__date">Lorem ipsum </div>
+                    <div class="news__my-slider__item__descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At error, voluptatibus magnam reprehenderit, mollitia dolores, adipisci illo labore voluptatem suscipit inventore qui. Consequatur rerum laborum exercitationem aut itaque facere rem!</div>
+                </div>
+                <div class="news__my-slider__item">
+                    <div class="news__my-slider__item__img"><img src="img/noImage.jpg" alt="упс..."></div>
+                    <div class="news__my-slider__item__title">Lorem ipsum dolor,<br> sit amet consectetur </div>
+                    <div class="news__my-slider__item__date">Lorem ipsum </div>
+                    <div class="news__my-slider__item__descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At error, voluptatibus magnam reprehenderit, mollitia dolores, adipisci illo labore voluptatem suscipit inventore qui. Consequatur rerum laborum exercitationem aut itaque facere rem!</div>
+                </div>
+            </div>
+
+           
+     
+    </div>
+    </section>
+
+
+   <section class="contactUs">
+    <div class="container">
+        <form action="" class="contactUs__form">
+            <input class="contactUs__form__text"  type="text" name="text" placeholder="ФИО">
+            <input class="contactUs__form__tel" type="tel" name="phone" placeholder="Телефон">
+            <input class="contactUs__form__email" type="email" name="email" placeholder="E-mail">
+            <textarea class="contactUs__form__textArea"  placeholder="Ваш запрос" ></textarea>
+            <div class="contactUs__form__descr">Нажимая на кнопку вы даете согласие на обработку персональных данных</div>
+            <button class="contactUs__form__btn">Отправить</button>
+        </form>
+    </div>
+   </section>
+
+
+   <section class="footer">
+
+    <div class="footer__first">
+             <div class="container">
+                <div class="footer__first__navWrapper">
+                    <div class="footer__first__navWrapper__icon"><img src="icons/logo.png" alt="упс..."></div>
+                    <div class="footer__first__navWrapper__item">
+                        <ul class="footer__first__navWrapper__item__wrapperText">
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">О компании</a></li>
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Каталог продукции</a></li>
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Услуги</a></li>
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Вакансии</a></li>
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Новости</a></li>
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__first__navWrapper__item">
+                        <ul class="footer__first__navWrapper__item__wrapperText">
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Элеваторное Оборудование</a></li>
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Котлы</a></li>
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Металлоконструкции</a></li>
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Запчасти на элеваторное оборудование</a></li>
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Трубы дымовые</a></li>
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Водонапорные башни</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__first__navWrapper__item">
+                        <ul class="footer__first__navWrapper__item__wrapperText">
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Котел-утилизатор</a></li>
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Скреперный транспортёр для уборки навоза</a></li>
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Планетарный бетоносмеситель</a></li>
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Подъемники</a></li>
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Тележки</a></li>
+                            <li class="footer__first__navWrapper__item__wrapperText__text"><a href="#">Неликвиды</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="footer__first__divider"></div>
+
+            <div class="container">
+            
+
+
+                <div class="footer__first__infWrapper">
+                    <div class="footer__first__infWrapper__item">
+                        <div class="footer__first__infWrapper__item__icon"><img src="icons/point.png" alt="упс..."></div>
+                        <div class="footer__first__infWrapper__item__descr">Адрес: 352382, Краснодарский край, г. Кропоткин, ул. Пушкина, 79</div>
+                    </div>
+                    <div class="footer__first__infWrapper__item">
+                        <div class="footer__first__infWrapper__item__icon"><img src="icons/phone.png" alt="упс..."></div>
+                        <div class="footer__first__infWrapper__item__descr">Тел./Факс: 8(86138) 6-34-03, 6-34-06 E-mail: sale@semm.ru</div>
+                    </div>
+                    <div class="footer__first__infWrapper__item">
+                        <div class="footer__first__infWrapper__item__icon"><img src="icons/clock.png" alt="упс..."></div>
+                        <div class="footer__first__infWrapper__item__descr">Режим работы: пн-пт 8:00-17:00,<br> перерыв 12:00-13:00, сб-вс: выходной</div>
+                    </div>
+                </div>
+        </div>
+
+
+    </div>
+           
+    <div class="footer__second">
+        <div class="container">
+            <div class="footer__second__wrapper">
+                <div class="footer__second__wrapper__item"><a href="#">© АО "Элеватормельмаш"  2014 г.</a></div>
+                <div class="footer__second__wrapper__item"><a href="#">Разработка и маркетинг - WebCanape</a></div>
+                <div class="footer__second__wrapper__item"><a href="#">Политика конфиденциальности</a></div>
+            </div>
+        </div>
+    </div>
+
+   </section>
 
     <script  src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

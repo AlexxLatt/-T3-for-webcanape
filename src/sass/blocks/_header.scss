@@ -1,0 +1,126 @@
+.header{
+	&__wrapper{
+		display: grid;
+		grid-template-columns:170px 460px 280px 270px ;
+		grid-template-rows: repeat(2,70px);
+		column-gap: 53px;
+	}
+	&__sidepanel{
+		height: 25px;
+		width: 25px;
+		display: none;
+		background:none;
+		border:none;
+	}
+	&__logo{
+		width: 132px;
+		height: 116px;
+
+
+	}
+	&__schedule{
+		grid-row: 2/3;
+		grid-column:2/3;
+		color: #222;
+		font-family: Montserrat;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+	}
+		
+	&__nav{
+		grid-row: 1/2;
+		grid-column:2/3;
+		align-self:center;
+		
+		&__wrapper{
+			display: flex;
+			justify-content: space-between;
+			&__item{
+				list-style-type: none;
+				&__text{
+					color: #222;
+					font-family: Montserrat;
+					font-size: 16px;
+					font-style: normal;
+					font-weight: 600;
+					line-height: normal;
+				}
+			}
+		}
+	}
+	&__email{
+		a{color: #69A54D;
+		text-align: right;
+		font-family: Montserrat;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;}
+		grid-row: 2/3;
+		grid-column: 3/4;
+		justify-self: center;
+		align-self:flex-start;
+	}
+	a:hover{
+		color: #69A54D;
+	}
+	&__menuWrapper{
+	
+		grid-row: 1/3;	
+		grid-column: 4/5;
+		display: grid;
+		grid-template-columns: repeat(2,135px);
+		grid-template-rows: repeat(2,70px);
+		&__phone{
+			grid-row: 2/3;	
+			grid-column: 1/3;
+			color: #222;
+			font-family: Montserrat;
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: normal;
+			
+		}
+		&__togleLang{
+			margin-top: 17px;
+			height: 30px;
+			width: 70px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			&__btn{	
+				font-family: Montserrat;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: normal;
+				border: none;
+				background-color: white;
+				width: 40px;
+				height: 20px;
+			}
+			&__btn:first-child{
+				border-right:  rgba(196, 196, 196, 0.30) 1px solid;
+			}
+		}
+	
+	}
+}
+select{
+	margin-top: 17px;
+	background-color: white;
+	height: 20px;
+	width: 100%;
+	border: none;
+	align-items: center;
+	color: #222;
+	text-align: left;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}

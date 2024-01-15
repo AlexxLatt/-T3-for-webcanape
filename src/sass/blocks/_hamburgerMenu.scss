@@ -1,0 +1,71 @@
+.hamburgerMenu{
+	position: fixed;
+	top:0%;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	z-index: 10;
+	right: -100%;
+	transition: right 0.3s ease;
+	&__wrapper{
+		padding-left: 2%;
+		&__close{
+			background-color:white;
+			border: none;
+			margin-top: 2%;
+			margin-left: 90%;
+			img{
+				width: 50px;
+				height: 50px;
+			}
+		}
+		&__list{
+			&__item{
+				padding: 15px 0 15px 0;
+				a{
+					color: #222;
+					font-family: Montserrat;
+					font-size: 26px;
+					font-style: normal;
+					font-weight: 600;
+					line-height: normal;
+				}
+			}
+		}
+		&__phone{
+
+			color: #222;
+			font-family: Montserrat;
+			font-size: 40px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: normal;
+		}
+		&__email{
+			margin-top: 40px;
+			color: #69A54D;
+		
+			font-family: Montserrat;
+			font-size: 26px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+		}
+		&__schedule{
+			margin-top: 40px;
+			color: #222;
+			font-family: Montserrat;
+			font-size: 26px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+	}
+
+}
+.hamburgerMenu.active{
+	right: 0;
+	
+}
+
+	

@@ -1,0 +1,60 @@
+.news{
+	margin-top: 40px;
+	&__title{
+		color: #222;
+		font-family: Montserrat;
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+	
+	&__my-slider{
+		    margin: 0;
+    		padding: 0;
+			margin: 10px;
+		&__item{
+			&__img{
+				img{
+					width: 410px;
+					height: 240px;
+				}
+			
+
+			}
+			&__title{
+				margin-top: 30px;
+				color: #69A54D;
+				font-family: Montserrat;
+				font-size: 22px;
+				font-style: normal;
+				font-weight: 600;
+				line-height: normal;
+			}
+			&__date{
+				margin-top: 10px;
+				color: #CAC1A0;
+				font-family: Montserrat;
+				font-size: 14px;
+				font-style: normal;
+				font-weight: 600;
+				line-height: normal;
+			}
+			&__descr{
+				width: 405px;
+				margin-top: 10px;
+				color: #222;
+				font-family: Montserrat;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 24px; 
+			}
+		}
+	}
+	&__wrapper{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+
+	}
+}

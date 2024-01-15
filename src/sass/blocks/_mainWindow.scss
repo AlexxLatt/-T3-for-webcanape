@@ -1,0 +1,43 @@
+.mainWindow{
+	background: url("../img/main/mainBg.jpg") no-repeat 50%/cover;
+	height: 824px;
+	&__header{
+		padding-top: 20px;
+		display: grid;
+		grid-template-columns: 4fr 2fr;
+		grid-template-rows: 40px;
+		
+		&__nav{
+			&__wrapper{
+				list-style-type: none;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				&__item{
+					&__text{
+						color: #FFF;
+						font-family: Montserrat;
+						font-size: 20px;
+						font-style: normal;
+						font-weight: 600;
+						line-height: normal;
+					}
+					&__text:hover{
+						color: #69A54D;
+					}
+				}
+			}
+		}
+
+		&__serch{
+			display: flex;
+			align-items: center;
+			justify-content: end;
+			&__btn{
+				border: none;
+				background:none;
+			}
+		}
+	}
+
+}

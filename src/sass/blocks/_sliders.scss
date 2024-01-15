@@ -1,0 +1,110 @@
+
+.mainWindow{
+	
+	.tns-nav{
+		display: none;
+	}
+	&__my-slider{
+		// height: 400px;
+		&__item{
+			&__title{
+				margin-top: 115px;
+				color: rgba(255, 255, 255, 0.70);
+				text-align: center;
+				font-family: Montserrat;
+				font-size: 108px;
+				font-style: normal;
+				font-weight: 800;
+				line-height: normal;
+				text-transform: uppercase;
+			}
+			&__subtitle{
+				margin-top: 30px;
+				color: #FFF;
+				text-align: center;
+				font-family: Montserrat;
+				font-size: 26px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 40px; /* 153.846% */
+			}
+		}
+	}
+	&__sliderWrpapper{
+		display: grid;
+		grid-template-columns: 10% 10% 30% 40% 10%;
+		grid-template-rows: 5fr 1fr;
+		.tns-outer{
+			grid-column: 1/6;
+		}
+	}
+	&__divider{
+		align-self: flex-end;
+		justify-self: center;
+		height: 1px;
+		width: 100%;
+		background: rgba(255, 255, 255, 0.20);
+		grid-column: 3/5;
+	}
+	&__score{
+			align-self: flex-start;
+			justify-self: center;
+			color: rgba(255, 255, 255, 0.70);
+			text-align: right;
+			font-family: Montserrat;
+			font-size: 96px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			text-transform: uppercase;
+	}
+}
+
+#mainWindow__next{
+	transform: translateY(60%) translateX(145%);
+	
+	background: url("../icons/left.png") no-repeat 50%/cover;
+	width: 80px;
+	height: 50px;
+	border:none;
+	
+}
+
+#mainWindow__prev{
+	transform: translateY(60%);
+	position: absolute;
+	background: url("../icons/right.png") no-repeat 50%/cover;
+	width: 80px;
+	height: 50px;
+	border:none;
+
+}
+#mainWindow__custom_controlsContainer{
+	align-self: flex-end;
+	justify-self: center;
+}
+[data-action="stop"] {
+    display: none;
+}
+
+
+#news__prev{
+	background: url("../icons/newsRight.png") no-repeat 50%/cover;
+	width: 80px;
+	height: 50px;
+	border:none;
+	transform: translateX(-35%);
+}
+#news__next{
+	background: url("../icons/newsLeft.png") no-repeat 50%/cover;
+	width: 80px;
+	height: 50px;
+	border:none;
+
+}
+#news__custom_controlsContainer{
+	justify-self:flex-end;
+}
+.news__my-slider{
+	margin-top: 50px;
+}

@@ -1,18 +1,15 @@
-import slider from "./modules/slider";
-import forms from "./modules/forms"
-import stages from "./modules/stages";
-import tabs from "./modules/tabs";
-import scrollUp from "./modules/scrollUp";
+import hamburger from "./modules/hamburger";
 import mask from "./modules/mask";
+import sliderScore from "./modules/scoreSlider";
+import slider from "./modules/slider";
+
+
 window.addEventListener("DOMContentLoaded", () =>{
-
-
-    mask();
-    tabs();
-    slider();
-    forms();
-    stages();
-    scrollUp();
+	slider();
+	mask();
+	sliderScore();
+	hamburger();
+	
 
 
 });
